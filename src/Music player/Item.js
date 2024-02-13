@@ -4,7 +4,7 @@ import './Styles.css'
 export default function Item() {
   return (
     <div>
-      <img src="" alt='Main poster' className='Poster'/>
+      <img src={"Images/banner s1.jpg"} className='Poster'/>
     </div>
   )
 }

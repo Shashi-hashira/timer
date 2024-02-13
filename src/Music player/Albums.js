@@ -9,11 +9,15 @@ export default function Albums() {
   <Grid xs={12}>
     <img src={"./public/Images/banner1.jpg"} />
   </Grid>
+
+
   <Grid item xs={6}>
-  <Item  src="" />
+  <Item  src={'Images/dev.png'} />
   </Grid>
+
+
   <Grid item xs={6}>
-  <Item  src="" />
+  <Item />
   </Grid>
   <Grid item xs={6}>
   <Item  src="" />

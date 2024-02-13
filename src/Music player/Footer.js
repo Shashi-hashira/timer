@@ -6,7 +6,12 @@ const Footer = () => {
       <div>
         <p>Your no.of Attempt =  {click } times</p>
         <button onClick={() => setClick(click+1)}>click here</button>
-        <img src='' alt='play'/>
+        <ul>
+          <li>
+            {/* <img  style ={{height:'155px'}}src={'Images/dev.png'}/>
+            <img  style ={{height:'155px'}} src='https://images.unsplash.com/photo-1509043759401-136742328bb3?ixlib=rb-4.0.3'/> */}
+          </li>
+        </ul>
       </div>
     )
   }
